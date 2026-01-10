@@ -1,8 +1,8 @@
 # GDIM32 In Class Activities
 # W1
-### In-class activity 1:
+### Activity 1
 LA's advice is that we should understand our code, and then we can revise it into a better version. Moreover, we should understand the individual parts of the knowledge well to help us create outstanding work. It's essential to listen carefully in class and read the pre-learning PPT to learn the knowledge well. 
-### In-class activity 2:
+### Activity 2
 1. x=10
 2. x=2
 3. Repeatedly occur "hello world"
