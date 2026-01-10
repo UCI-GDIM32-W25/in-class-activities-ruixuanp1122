@@ -11,9 +11,8 @@ LA's advice is that we should understand our code, and then we can revise it int
 6. Name: Parameter; Purpose: It acts as a placeholder that allows the method to receive data as input. By defining an int x, the method PrintMessage can accept any integer passed to it and use that value within its body to perform tasks, making the code more flexible and reusable.
 7. Translate can be only an object. 
 8. _playerTransform.Translate
-### In-class activity 3:
-https://docs.google.com/document/d/1RY8G4u76Aeqqu-rppdIJhAqMhHotRh3U2m445UlfjAs/edit?usp=sharing
-Hit enter TWICE to create a new line.
+### Activity 3:
+[https://docs.google.com/document/d/1RY8G4u76Aeqqu-rppdIJhAqMhHotRh3U2m445UlfjAs/edit?usp=sharing](https://docs.google.com/document/d/1RY8G4u76Aeqqu-rppdIJhAqMhHotRh3U2m445UlfjAs/edit?usp=sharing)
 ## MG1：Unity & C# review
 1. Ruixuan Pan, she/her
 2. 
