@@ -18,5 +18,3 @@ Hit enter TWICE to create a new line.
 1. Ruixuan Pan, she/her
 2. 
 - 
-
-Remove all placeholder text in order to get full credit for README file formatting.
