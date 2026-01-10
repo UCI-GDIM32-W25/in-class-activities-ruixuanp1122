@@ -14,10 +14,9 @@ LA's advice is that we should understand our code, and then we can revise it int
 ### In-class activity 3:
 https://docs.google.com/document/d/1RY8G4u76Aeqqu-rppdIJhAqMhHotRh3U2m445UlfjAs/edit?usp=sharing
 Hit enter TWICE to create a new line.
-
-
-- Create bullet points by writing dashes.
-- Here's another bullet point entry.
-
+## MG1：Unity & C# review
+1. Ruixuan Pan, she/her
+2. 
+- 
 
 Remove all placeholder text in order to get full credit for README file formatting.
