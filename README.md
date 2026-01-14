@@ -1,5 +1,5 @@
 # GDIM32 In Class Activities
-# W1
+## W1
 ### Activity 1
 LA's advice is that we should understand our code, and then we can revise it into a better version. Moreover, we should understand the individual parts of the knowledge well to help us create outstanding work. It's essential to listen carefully in class and read the pre-learning PPT to learn the knowledge well. 
 ### Activity 2
@@ -14,7 +14,7 @@ LA's advice is that we should understand our code, and then we can revise it int
 ### Activity 3:
 [MG1 Breakdown Google Doc](https://docs.google.com/document/d/1RY8G4u76Aeqqu-rppdIJhAqMhHotRh3U2m445UlfjAs/edit?usp=sharing)
 
-# W1
+## W1
 ### Activity 1
 ![d0d42cf4a120d9f60ba2f311913c0229](https://github.com/user-attachments/assets/71ca3dba-92a2-4a4e-9779-00c6e6d44b4f)
 ### Activity 2
