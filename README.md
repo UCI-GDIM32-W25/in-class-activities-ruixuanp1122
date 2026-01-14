@@ -14,7 +14,7 @@ LA's advice is that we should understand our code, and then we can revise it int
 ### Activity 3:
 [MG1 Breakdown Google Doc](https://docs.google.com/document/d/1RY8G4u76Aeqqu-rppdIJhAqMhHotRh3U2m445UlfjAs/edit?usp=sharing)
 
-## W1
+## W2
 ### Activity 1
 ![d0d42cf4a120d9f60ba2f311913c0229](https://github.com/user-attachments/assets/71ca3dba-92a2-4a4e-9779-00c6e6d44b4f)
 ### Activity 2
