@@ -8,29 +8,38 @@ public class Pigeon : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
 
-    
 
+    private MovementState _currentState;
     void Update()
     {
         UpdateState();
         UpdateAppearance();
     }
 
-    // (2) fill in this method to update the pigeon's state based on input
-    // if the player is pressing the 'A' key, the state should be set to Flying
-    // - otherwise, it should be Idle
     private void UpdateState ()
     {
-        
+        if (Input.GetKey(KeyCode.A))
+        {
+            _currentState = MovementState.Flying;
+        }
+        else
+        {
+            _currentState = MovementState.Idle;
+        }
     }
 
-    // (3) fill in this method to update the pigeon's animation based on its state
-    // based on whether the player is Flying or Idling, use the given methods PlayFlyAnimation and PlayIdleAnimation
-    // to play the correct animation
-    // use a Switch statement!
     private void UpdateAppearance()
     {
-        
+        switch (_currentState)
+        {
+            case MovementState.Flying:
+                PlayFlyAnimation();
+                break;
+
+            case MovementState.Idle:
+                PlayIdleAnimation();
+                break;
+        }
     }
 
     private void PlayFlyAnimation () {
