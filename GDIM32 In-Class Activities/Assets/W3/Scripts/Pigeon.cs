@@ -8,7 +8,6 @@ public class Pigeon : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
 
-    // (1) add a member variable to represent the Pigeon's state
     
 
     void Update()
