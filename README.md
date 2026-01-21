@@ -21,3 +21,12 @@ LA's advice is that we should understand our code, and then we can revise it int
 [Inclass Pre-MG2](https://github.com/UCI-GDIM32-W25/mg2-ruixuanp1122/commit/3355a699fc859c54d18a56e8586b7cfa29054ccd)
 
 In this assignment,  I focused on setting up the penguin’s jump behavior using physics, including detecting when the penguin is grounded so that jumping is only possible while on the ground.  I also configured the ground and collision system to ensure the player interacts correctly with the environment. The TA helped me build a great ground layer, and I learned how colliders, Rigidbody2D, and ground checks work together to control movement and prevent unintended behavior such as falling through the ground or double jumping.
+
+## W3
+### Activity 0-2
+My Buddy: Yan Zhang 
+
+### Aactivity 3
+![8cceb080d66e96928dd9b1147e86eece](https://github.com/user-attachments/assets/9bbe670b-ac00-4b52-875c-058878a0f900)
+
+
