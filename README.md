@@ -40,6 +40,11 @@ This happens because the Locator uses the Singleton pattern: during Awake(), eac
 Break Down:
 ![3043aa5e7d1d66c0231cb32d7fd1b5ac](https://github.com/user-attachments/assets/d58494d0-7978-4f58-bb31-529b44ed0e8d)
 
+### Activity 3
+[HW4](https://github.com/ruixuanp1122/HW4/commit/7509c0aa8de2f6976a6b3cfdf32344e911a97dfd)
+I downloaded all the assets and sliced them separately. Then I changed the format to 9:16 instead of the horizontal version. 
+
+
 
 
 
