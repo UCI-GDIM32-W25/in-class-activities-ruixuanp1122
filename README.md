@@ -36,5 +36,10 @@ My Buddy: Yan Zhang
 When multiple Locator objects are added to the Scene, all but one are destroyed when the game runs.
 This happens because the Locator uses the Singleton pattern: during Awake(), each instance checks whether another instance already exists and destroys itself if so.
 
+### Activity 2
+Break Down:
+![3043aa5e7d1d66c0231cb32d7fd1b5ac](https://github.com/user-attachments/assets/d58494d0-7978-4f58-bb31-529b44ed0e8d)
+
+
 
 
