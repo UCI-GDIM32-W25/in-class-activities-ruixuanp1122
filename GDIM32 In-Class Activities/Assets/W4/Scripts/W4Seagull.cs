@@ -1,7 +1,5 @@
 using UnityEngine;
 using System.Collections;
-public delegate void PigeonCooAction();
-public event PigeonCooAction OnPigeonCoo;
 
 public class W4Seagull : MonoBehaviour
 {
