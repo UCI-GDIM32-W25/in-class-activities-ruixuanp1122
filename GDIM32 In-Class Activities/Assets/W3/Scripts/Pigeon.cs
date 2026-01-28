@@ -4,8 +4,11 @@ public enum MovementState {
     Idle, Flying
 }
 
-public class Pigeon : MonoBehaviour
+public class W4Pigeon : MonoBehaviour
 {
+    public delegate void PigeonCooAction();
+    public event PigeonCooAction OnPigeonCoo;
+
     [SerializeField] private Animator _animator;
 
 
@@ -14,6 +17,11 @@ public class Pigeon : MonoBehaviour
     {
         UpdateState();
         UpdateAppearance();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Coo();
+        }
     }
 
     private void UpdateState ()
@@ -48,5 +56,11 @@ public class Pigeon : MonoBehaviour
 
     private void PlayIdleAnimation () {
         _animator.SetBool("isFlying", false);
+    }
+
+    private void Coo()
+    {
+
+        OnPigeonCoo?.Invoke();
     }
 }
