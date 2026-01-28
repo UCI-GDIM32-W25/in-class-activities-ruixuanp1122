@@ -30,6 +30,7 @@ My Buddy: Yan Zhang
 ![8cceb080d66e96928dd9b1147e86eece](https://github.com/user-attachments/assets/9bbe670b-ac00-4b52-875c-058878a0f900)
 
 ## W4
+### Activity 0
 My Buddy: Yan Zhang 
 
 ### Activity 1
@@ -42,7 +43,7 @@ Break Down:
 
 ### Activity 3
 [HW4](https://github.com/ruixuanp1122/HW4/commit/7509c0aa8de2f6976a6b3cfdf32344e911a97dfd)
-I downloaded all the assets and sliced them separately. Then I changed the format to 9:16 instead of the horizontal version. 
+I downloaded the assets of Yellowbird, Crow, and Pigeon and sliced them separately. I also changed the format to 9:16 instead of the horizontal version for better mobile playback, the same as the Professor's format. 
 
 
 
