@@ -48,22 +48,26 @@ I downloaded the assets of Yellowbird, Crow, and Pigeon and sliced them separate
 
 ## W5
 ### Activity 1
-Using an abstract Item class combined with the IBreakable interface is a clear and effective way of demonstrating inheritance and interfaces separately. The Item class defines a shared behaviour (Use()), while the IBreakable interface cleanly separates optional functionality, such as durability and breaking, which not all items require (e.g. the Elven Sword).
+I suppose using the abstract Item class combined with the IBreakable interface is a clear and effective way, and it can show inheritance and interfaces separately. The Item class defines a shared behaviour (Use()), while the IBreakable interface separates optional functionality, which not all items require (e.g. the Elven Sword).
 
 However, for a larger project, I would consider refactoring this design by centralising shared durability logic in a base breakable item class or making durability data-driven rather than hard-coding it in each item. This would reduce duplication and make balancing or extending item behaviour easier.
 
 Overall, I think this structure works well as a learning exercise, providing a solid conceptual foundation. However, I would adapt it for scalability and flexibility in a full game project.
 
 ### Activity 2
-In the second demo, data-only classes such as items and enemy stats are better represented as ScriptableObjects rather than MonoBehaviours. In the first demo, item data is either stored directly on the Player or attached to GameObjects, which causes unnecessary coupling between data and scene objects.
+In the second demo, Model is handled by the ScriptableObject classes (like ItemData or EnemyStats). They’re strictly for holding the "source of truth"—the raw data like health, names, and stats—independent of any logic in the scene.
 
-ScriptableObjects allow game data like item names or enemy health values to exist independently of GameObjects. This makes the data reusable across different systems such as players, enemies, shops, or UI, and avoids duplication across multiple prefabs.
+And view is the UI scripts (like UIManager or HealthBar) and the SpriteRenderers on the GameObjects act as the View. They just listen for changes and update what the player actually sees on the screen.
 
-By separating data from behavior, the second demo demonstrates a cleaner and more scalable design. If this project were to grow, using ScriptableObjects would make balancing, iteration, and maintenance significantly easier compared to storing data on Prefabs or MonoBehaviours.
+I think Controller is the MonoBehaviour scripts (like PlayerController or EnemyAI) act as the glue. They take the player input or game logic, grab the data from the Model, and tell the View what to display.
 
 ### Activity 3
-Project Rustyard is a first-person, 3D, point-and-click adventure game in which the player acts as a scrap collector, sent to an abandoned junkyard to find specific metal parts: they’ll click to inspect piles of debris, open old crates, and note the location of target items for pickup.
+Scenario 1: For this rhythm game, I’m thinking of using a mix of ScriptableObjects, inheritance with polymorphism, and an MVC pattern driven by C# events. Basically, each beat would be a ScriptableObject that just holds pure data—like which key to press, the exact timing, and where it pops up on the screen. The best part about this is that the beat data is totally separate from the scene. It makes it way easier to reuse or tweak levels without having to mess around with messy GameObjects in the hierarchy. On the coding side, I’d set up a base abstract class or interface (something like Beat) to handle the basics, like Spawn() or CheckInput(). Then, different types like hold notes, taps, or slides can just inherit from that and override the specific behavior. 
 
+Scenario 2: For a tactical shooter like Valorant, I’d go with a mix of inheritance, interfaces, and a Finite State Machine (FSM) to keep things manageable. All the agents would inherit from one main Agent base class. This is where I’d keep the common stuff like health, movement, and damage logic. For the unique abilities, I’d use abstract methods or interfaces. This way, every character follows the same structure, but I can still write totally different logic for their specific powers without it getting messy. I also want to use an FSM with C# enums to handle player states—like whether they're idling, shooting, using an ability, or stunned. It’s a lot easier to sync animations with gameplay logic this way. Plus, I’d use ScriptableObjects for all the character stats and ability data. That way, if I need to buff or nerf something, I can just tweak the data file instead of digging through the code.
+
+Scenario 3：
+For a farming simulation game, I think a combination of ScriptableObjects and inheritance would be best. I’d start with a base FarmObject class for anything you can find on a farm, such as plants or rocks. These would all share basic properties such as position and interaction methods, but then I would use inheritance to create specific types — so a harvestable crop and a breakable rock would each have their own version of the 'Interact()' behaviour. ScriptableObjects are ideal for this kind of game. I’d use them to store crop-specific data, such as how many days it takes for them to grow and what they drop when harvested. This is much better than duplicating that data across a hundred different prefabs. On the player's side, I’d use a finite state machine (FSM) to manage actions such as watering, planting or mining. This makes it much smoother, ensuring the player isn't trying to perform two animations at once and that everything feels responsive.
 ### Activity 4
 [Proposal First Draft](https://docs.google.com/document/d/1xBZf-TNesHDRlNGUnQIIlStqfWb3MOsQMGyXhkQuQ5s/edit?usp=sharing)
 
