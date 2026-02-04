@@ -46,6 +46,24 @@ Break Down:
 I downloaded the assets of Yellowbird, Crow, and Pigeon and sliced them separately. I also changed the format to 9:16 instead of the horizontal version for better mobile playback, the same as the Professor's format. 
 
 
+## W5
+### Activity 1
+Using an abstract Item class combined with the IBreakable interface is a clear and effective way of demonstrating inheritance and interfaces separately. The Item class defines a shared behaviour (Use()), while the IBreakable interface cleanly separates optional functionality, such as durability and breaking, which not all items require (e.g. the Elven Sword).
 
+However, for a larger project, I would consider refactoring this design by centralising shared durability logic in a base breakable item class or making durability data-driven rather than hard-coding it in each item. This would reduce duplication and make balancing or extending item behaviour easier.
 
+Overall, I think this structure works well as a learning exercise, providing a solid conceptual foundation. However, I would adapt it for scalability and flexibility in a full game project.
+
+### Activity 2
+In the second demo, data-only classes such as items and enemy stats are better represented as ScriptableObjects rather than MonoBehaviours. In the first demo, item data is either stored directly on the Player or attached to GameObjects, which causes unnecessary coupling between data and scene objects.
+
+ScriptableObjects allow game data like item names or enemy health values to exist independently of GameObjects. This makes the data reusable across different systems such as players, enemies, shops, or UI, and avoids duplication across multiple prefabs.
+
+By separating data from behavior, the second demo demonstrates a cleaner and more scalable design. If this project were to grow, using ScriptableObjects would make balancing, iteration, and maintenance significantly easier compared to storing data on Prefabs or MonoBehaviours.
+
+### Activity 3
+Project Rustyard is a first-person, 3D, point-and-click adventure game in which the player acts as a scrap collector, sent to an abandoned junkyard to find specific metal parts: they’ll click to inspect piles of debris, open old crates, and note the location of target items for pickup.
+
+### Activity 4
+[Proposal First Draft](https://docs.google.com/document/d/1xBZf-TNesHDRlNGUnQIIlStqfWb3MOsQMGyXhkQuQ5s/edit?usp=sharing)
 
