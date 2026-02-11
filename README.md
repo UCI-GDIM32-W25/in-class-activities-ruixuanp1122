@@ -96,5 +96,6 @@ For a farming simulation game, I think a combination of ScriptableObjects and in
 
 
 ### Activity 2
-Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan
+Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan 
+
 [proposal final draft document](https://docs.google.com/document/d/1xBZf-TNesHDRlNGUnQIIlStqfWb3MOsQMGyXhkQuQ5s/edit?usp=sharing)
