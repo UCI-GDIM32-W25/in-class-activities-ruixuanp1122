@@ -75,9 +75,9 @@ For a farming simulation game, I think a combination of ScriptableObjects and in
 
 ## W6
 ### Activity 1
-1. Gizmos:
-visual aids for debug things
-OnDrawGizmos()
+- Gizmos:
+  - visual aids for debug things
+  - OnDrawGizmos()
 OnDrawGizmosSelected(): Only visible when object is clicked.
 Use to visualize item interaction zones
 2. Unity Profiler:
@@ -93,6 +93,9 @@ Use prefabs to minimize conflicts
 6. GetComponent: don't use them frequently in Update
 7. Profile: look Hierarchy View of Player Loop
 8. Window → Analysis → Profiler
+
+
+
 
 
 ### Activity 2
