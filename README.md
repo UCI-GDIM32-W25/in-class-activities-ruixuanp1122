@@ -72,3 +72,10 @@ For a farming simulation game, I think a combination of ScriptableObjects and in
 ### Activity 4
 [Proposal First Draft](https://docs.google.com/document/d/1xBZf-TNesHDRlNGUnQIIlStqfWb3MOsQMGyXhkQuQ5s/edit?usp=sharing)
 
+
+## W6
+### Activity 1
+Notes:
+
+### Activity 2
+Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan
