@@ -76,8 +76,11 @@ For a farming simulation game, I think a combination of ScriptableObjects and in
 ## W6
 ### Activity 1
 1. Gizmos:
+ 
  • visual aids for debug things
+ 
  • OnDrawGizmos()
+
 • OnDrawGizmosSelected(): Only visible when object is clicked.
 • Use to visualize item interaction zones
 2. Unity Profiler:
