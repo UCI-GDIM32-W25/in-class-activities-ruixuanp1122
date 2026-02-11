@@ -76,21 +76,28 @@ For a farming simulation game, I think a combination of ScriptableObjects and in
 ## W6
 ### Activity 1
 1. Gizmos:
+
+• visual aids for debug things
  
- • visual aids for debug things
- 
- • OnDrawGizmos()
+• OnDrawGizmos()
 
 • OnDrawGizmosSelected(): Only visible when object is clicked.
+
 • Use to visualize item interaction zones
 2. Unity Profiler:
+
 • A tool to analyze game performance and identify bottlenecks
+
 • Spikes: Sudden high CPU usage in one frame
+
 • GC Alloc: Memory allocated will cause stuttering" when cleaned up.
 3. Breakpoints：
+
 • Pausing the code at a specific line and check variable values.
 4. Merging and version control：
+
 • Resolve conflicts when different teammates edit together
+
 • Use prefabs to minimize conflicts
 5. Debug.Log: slow the unity engine
 6. GetComponent: don't use them frequently in Update
