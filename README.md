@@ -103,17 +103,17 @@ Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan
 ## W7
 ### Activity 1
 - NPC Line-of-Sight and Aggro Mechanics
--   Duck uses a red line to detect the player's line of sight and activates pursuit when unobstructed
--   A finite state machine controls the duck's behavior (turning when obstacles block vision)
+  -Duck uses a red line to detect the player's line of sight and activates pursuit when unobstructed
+  -A finite state machine controls the duck's behavior (turning when obstacles block vision)
 - Finite State Machine
--   Duck: wander state and pursue state
--   Enable enemies to switch between chasing and searching based on line-of-sight
+  - Duck: wander state and pursue state
+  - Enable enemies to switch between chasing and searching based on line-of-sight
 - Raycast Line-of-Sight
--   Duck uses raycast to check the line to sight up a maximum distance
--   raycast hits the player-duck can see them; otherwise, obstacles block vision
+  - Duck uses raycast to check the line to sight up a maximum distance
+  - raycast hits the player-duck can see them; otherwise, obstacles block vision
 - NPC Obstacle Avoidance
--   Duck NPC uses a sphere cast to detect obstacles
--   Sphere casts provide volume detection and prevent collisions with low or irregular obstacles
+  - Duck NPC uses a sphere cast to detect obstacles
+  - Sphere casts provide volume detection and prevent collisions with low or irregular obstacles
 
 ### Activity 2
 Attendance: Peiyi Xiong, Ruixuan Pan 
