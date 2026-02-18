@@ -112,4 +112,11 @@ Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan
 ### Activity 2
 Attendance: Peiyi Xiong, Ruixuan Pan 
 
-### Activity
+### Activity 3
+<img width="2360" height="1640" alt="bba180061bc8e0e349515ee28fa582f0" src="https://github.com/user-attachments/assets/d2c55382-9c45-4dc6-b8a8-3d71be1bb8fc" />
+
+### Activity 4
+[Trello]([https://trello.com/b/hxRv0avx/my-trello-board](https://trello.com/invite/b/69951d1a0edbf2c293079f02/ATTIeab7c1536d86fdec98b645e8214f9f1c5B39497B/my-trello-board))
+
+### Activity 5
+[Final](https://github.com/lindenreid/GDIM32-Final/compare/main...ruixuanp1122:GDIM32-Final:main)
