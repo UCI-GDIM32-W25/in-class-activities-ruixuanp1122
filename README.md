@@ -116,7 +116,8 @@ Attendance: Peiyi Xiong, Ruixuan Pan
 <img width="2360" height="1640" alt="bba180061bc8e0e349515ee28fa582f0" src="https://github.com/user-attachments/assets/d2c55382-9c45-4dc6-b8a8-3d71be1bb8fc" />
 
 ### Activity 4
-[Trello]([https://trello.com/b/hxRv0avx/my-trello-board](https://trello.com/invite/b/69951d1a0edbf2c293079f02/ATTIeab7c1536d86fdec98b645e8214f9f1c5B39497B/my-trello-board))
+[Trello](https://trello.com/invite/b/69951d1a0edbf2c293079f02/ATTIeab7c1536d86fdec98b645e8214f9f1c5B39497B/my-trello-board)
 
 ### Activity 5
-[Final](https://github.com/lindenreid/GDIM32-Final/compare/main...ruixuanp1122:GDIM32-Final:main)
+[Final Project](https://github.com/lindenreid/GDIM32-Final/compare/main...ruixuanp1122:GDIM32-Final:main)
+In class, I built the Unity project and shared it with two groupmates. I create the ground and the player, and code the fundamental script for this Final 3D Project. Our group  chose the 3D resources of buildings and houses for our game. We also plan the time to work together on this project and to divide our tasks. 
