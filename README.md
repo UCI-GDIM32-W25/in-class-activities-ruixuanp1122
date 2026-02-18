@@ -107,7 +107,13 @@ Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan
 -   A finite state machine controls the duck's behavior (turning when obstacles block vision)
 - Finite State Machine
 -   Duck: wander state and pursue state
--   Enable 
+-   Enable enemies to switch between chasing and searching based on line-of-sight
+- Raycast Line-of-Sight
+-   Duck uses raycast to check the line to sight up a maximum distance
+-   raycast hits the player-duck can see them; otherwise, obstacles block vision
+- NPC Obstacle Avoidance
+-   Duck NPC uses a sphere cast to detect obstacles
+-   Sphere casts provide volume detection and prevent collisions with low or irregular obstacles
 
 ### Activity 2
 Attendance: Peiyi Xiong, Ruixuan Pan 
