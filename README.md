@@ -95,10 +95,19 @@ For a farming simulation game, I think a combination of ScriptableObjects and in
 - Window → Analysis → Profiler
 
 
-
-
-
 ### Activity 2
 Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan 
 
 [proposal final draft document](https://docs.google.com/document/d/1xBZf-TNesHDRlNGUnQIIlStqfWb3MOsQMGyXhkQuQ5s/edit?usp=sharing)
+
+## W7
+### Activity 1
+- NPC Line-of-Sight and Aggro Mechanics
+-   Duck uses a red line to detect the player's line of sight and activates pursuit when unobstructed
+-   A finite state machine controls the duck's behavior (turning when obstacles block vision)
+- Finite State Machine
+-   Duck: wander state and pursue state
+-   Enable 
+
+### Activity 2
+Attendance: Peiyi Xiong, Ruixuan Pan 
