@@ -127,3 +127,23 @@ Attendance: Peiyi Xiong, Ruixuan Pan
 ### Activity 5
 [Final Project](https://github.com/lindenreid/GDIM32-Final/compare/main...ruixuanp1122:GDIM32-Final:main)
 In class, I built the Unity project and shared it with two groupmates. I create the ground and the player, and code the fundamental script for this Final 3D Project. Our group  chose the 3D resources of buildings and houses for our game. We also plan the time to work together on this project and to divide our tasks. 
+
+## W8
+### Activity 1
+Post-processing effects are shaders that affect the look of your entire screen. In our in-class example, a bloom post-processing effect is applied to the game.
+### Activity 2
+Attendance: Peiyi Xiong, Jingyi Bi, Ruixuan Pan
+
+### Activity 3
+Playtest note: 
+
+Buddy team feedback: The scene is very beautiful, and the characters have distinct features. The UI can be further improved, and some of the interaction codes may also be enhanced. The overall game has taken shape and can now incorporate background music and sound effects.
+
+Our buddy team: Zoo
+
+### Activity 4
+Improve UI interaction (The restaurant owner and the player communicate: The player can click "I" to trigger the conversation.)
+
+### Activity 5
+[Commit](https://github.com/JingyiBi/GDIM32-Final-AAA/commits/main/)
+I updated the whole UI text on Canva to the new version. I also moved the new consumer audio and sound effects in Unity.  
