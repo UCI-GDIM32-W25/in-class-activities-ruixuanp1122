@@ -147,3 +147,17 @@ Improve UI interaction (The restaurant owner and the player communicate: The pla
 ### Activity 5
 [Commit](https://github.com/JingyiBi/GDIM32-Final-AAA/commits/main/)
 I updated the whole UI text on Canva to the new version. I also moved the new consumer audio and sound effects in Unity.  
+
+
+## W9
+### Activity 1
+
+### Activity 2
+Attendance: Jingyi Bi, Peiyi Xiong, Ruixuan Pan
+
+### Activity 3
+Notes: The most important problem is that the camera angle shifts too abruptly, significantly affecting the gameplay experience. UI prompt for clicking the burger isn't clear, so players consistently miss the step of clicking the burger on the table. Similarly, the dialogue prompt for clicking the UI icon isn't clear, so players sometimes ignore it and skip the process. There aren't enough interactions with the items and NPCs. The Dialogue UI isn't so pretty; maybe we can add a mode to beautify it. The camera isn't in the proper position, so the player can't clearly catch the first NPC. 
+
+### Activity 4:
+According to the plan we made before, in the past week
+
