@@ -151,6 +151,9 @@ I updated the whole UI text on Canva to the new version. I also moved the new co
 
 ## W9
 ### Activity 1
+- Scales well:
+  - permanant, esay to use, esay to write scripts
+
 
 ### Activity 2
 Attendance: Jingyi Bi, Peiyi Xiong, Ruixuan Pan
