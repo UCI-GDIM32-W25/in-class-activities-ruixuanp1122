@@ -159,5 +159,7 @@ Attendance: Jingyi Bi, Peiyi Xiong, Ruixuan Pan
 Notes: The most important problem is that the camera angle shifts too abruptly, significantly affecting the gameplay experience. UI prompt for clicking the burger isn't clear, so players consistently miss the step of clicking the burger on the table. Similarly, the dialogue prompt for clicking the UI icon isn't clear, so players sometimes ignore it and skip the process. There aren't enough interactions with the items and NPCs. The Dialogue UI isn't so pretty; maybe we can add a mode to beautify it. The camera isn't in the proper position, so the player can't clearly catch the first NPC. 
 
 ### Activity 4:
-According to the plan we made before, in the past week
+According to the plan we made before, our group almost followed our proposal to construct the interaction system. In the past week, we finished the first delivery order with dialogues and order UI, but lacked some important UI Prompts to make a cue to the players. This week, we already written the new track list with more specific details and daily tasks we need to finish. For instance, this is our track list for Wednesday: 1. Return to the restaurant owner to hand in the task and receive BasePay 2. After completing the first order, unlock Pizza Order (the unlock mechanism requires DeliveryManager to verify first-order completion) 3. After completing the first order, return to the restaurant owner to initiate a new dialogue (logic) 4. Restaurant Owner Dialogue for Pizza Order 5. Pizza sprite and pickable interaction 6. Pizza appears in the bottom-right corner when clicked
+
+### Activity 5:
 
