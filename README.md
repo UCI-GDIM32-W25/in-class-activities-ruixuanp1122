@@ -152,8 +152,9 @@ I updated the whole UI text on Canva to the new version. I also moved the new co
 ## W9
 ### Activity 1
 - Scales well:
-  - permanant, esay to use, esay to write scripts
-
+  - permanent, easy to use, easy to write scripts
+  - Need to create a greater structure than GDIM 31 for a larger system
+  - when Dialogues are deeply branching 
 
 ### Activity 2
 Attendance: Jingyi Bi, Peiyi Xiong, Ruixuan Pan
