@@ -166,4 +166,18 @@ Notes: The most important problem is that the camera angle shifts too abruptly, 
 According to the plan we made before, our group almost followed our proposal to construct the interaction system. In the past week, we finished the first delivery order with dialogues and order UI, but lacked some important UI Prompts to make a cue to the players. This week, we already written the new track list with more specific details and daily tasks we need to finish. For instance, this is our track list for Wednesday: 1. Return to the restaurant owner to hand in the task and receive BasePay 2. After completing the first order, unlock Pizza Order (the unlock mechanism requires DeliveryManager to verify first-order completion) 3. After completing the first order, return to the restaurant owner to initiate a new dialogue (logic) 4. Restaurant Owner Dialogue for Pizza Order 5. Pizza sprite and pickable interaction 6. Pizza appears in the bottom-right corner when clicked
 
 ### Activity 5:
-[Commit in March.3](https://github.com/lindenreid/GDIM32-Final/compare/main...JingyiBi:GDIM32-Final-AAA:main)
+[Commit on March.3](https://github.com/lindenreid/GDIM32-Final/compare/main...JingyiBi:GDIM32-Final-AAA:main)
+
+## W10
+### Activity 1
+Attendance: Ruixuan Pan, Jingyi Bi, Peiyi Xiong
+
+### Activity 2
+Playtest Notes: Our hamburger's UI isn't clear enough, so players often forget to click on the hamburger on the table. The Order UI icons are also unclear, so players sometimes skip this step. Players don't know how to rotate using the mouse, so we need to add the instructions at the beginning. The dialogue and prompts UI don't look good, and we could add a mode to improve it. The conversation is pretty complete now.
+
+### Activity 3
+Last week, we finished most of our agenda items, including the dialogues, interactions, and the UI in the second delivery order. We also updated our dialogues to use the Scriptable types, as taught in the pre-learning PPT. In the final week, we are going to beautify the UI, update the state machine, and update the sound effects to make the project perfect. 
+
+### Activity 4
+[Commit on Marth.10](https://github.com/lindenreid/GDIM32-Final/commit/b8a5d6e64a6f2768bf5a2ac55ffb6d7cc337ce15) 
+We mainly changed the Start UI and updated the DialogueNode with the State Machine.
